@@ -9,6 +9,7 @@ import { ShapeModule } from './modules/shapeGenerator/shape.module';
 import { WeatherModule } from './modules/weather.module';
 import { QuotesModule } from './modules/quotes.module';
 import { RandomGameModule } from './modules/randomGame.module';
+import { PianoModule } from './modules/piano.module';
 import { CocktailModule } from './modules/cocktail.module';
 
 const startScreen = new StartScreen();
@@ -27,6 +28,7 @@ const timerModule = new TimerModule();
 const weatherModule = new WeatherModule();
 const quotesModule = new QuotesModule();
 const randomGameModule = new RandomGameModule();
+const pianoModule = new PianoModule();
 const cocktailModule = new CocktailModule();
 
 menu.add(
@@ -37,5 +39,6 @@ menu.add(
     quotesModule,
     timerModule,
     randomGameModule,
+    pianoModule,
     cocktailModule
 );
