@@ -13,6 +13,7 @@ export class Hint {
       'Timer - set timer',
       'Guess Game - try to guess number',
       'Daily Cocktail - get random cocktail recipe',
+      'Piano - play music'
     ];
   }
 

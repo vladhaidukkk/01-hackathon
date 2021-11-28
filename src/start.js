@@ -30,7 +30,6 @@ export class StartScreen {
 
   startApp() {
     clearInterval(this.interval);
-    console.log(this.interval);
     document.querySelector('.container').remove();
   }
 
