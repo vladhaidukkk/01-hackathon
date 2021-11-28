@@ -28,7 +28,6 @@ export class PianoModule extends Module {
     }
 
     trigger() {
-        console.log('Я блять пианино');
         const popup = new Popup(this.#createPiano(), "Let's play music!");
         popup.open();
 
