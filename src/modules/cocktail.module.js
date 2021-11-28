@@ -6,7 +6,7 @@ export class CocktailModule extends Module {
     #popup;
 
     constructor() {
-        super('cocktailModule', 'Gey daily cocktail');
+        super('cocktailModule', 'Get daily cocktail');
         this.#urls = {
             randomCocktail: 'https://www.thecocktaildb.com/api/json/v1/1/random.php',
         };
@@ -36,15 +36,18 @@ export class CocktailModule extends Module {
         }
 
         const cocktailCard = document.createElement('div');
-        cocktailCard.className = 'cocktail-box';
+        cocktailCard.className = 'cocktail-box mt-2';
+
+        const cocktailCardTop = document.createElement('div');
+        cocktailCardTop.className = '';
 
         const img = document.createElement('img');
         img.src = strDrinkThumb;
         img.alt = strDrink + ' image';
-        img.className = 'cocktail-box__image';
+        img.className = 'cocktail-box__image w-2/6 float-left rounded mr-4 shadow-md';
 
         const cocktailInfo = document.createElement('div');
-        cocktailInfo.className = 'cocktail-box__info';
+        cocktailInfo.className = 'cocktail-box__info text-gray-700';
 
         const cocktailName = document.createElement('p');
         cocktailName.textContent = `Coctail name: ${strDrink}`;
@@ -61,13 +64,16 @@ export class CocktailModule extends Module {
         const instructions = document.createElement('p');
         instructions.textContent = strInstructions;
 
+
         const generateButton = document.createElement('button');
-        generateButton.className = 'cocktail-card__button';
+        generateButton.className = 'cocktail-card__button btn rounded bg-blue-400 px-2 py-1 mt-4 hover:bg-blue-300 text-white w-full transition-all';
         generateButton.type = 'button';
         generateButton.innerText = 'Generate new';
 
+
         cocktailInfo.append(instructions);
-        cocktailCard.append(img, cocktailInfo, generateButton);
+        cocktailCardTop.append(img, cocktailInfo);
+        cocktailCard.append(cocktailCardTop, generateButton);
 
         return cocktailCard;
     }
