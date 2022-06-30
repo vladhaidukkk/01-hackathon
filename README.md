@@ -4,7 +4,7 @@
 
 ### Project description
 
-Our tea consists of 6 people created web application during the **two-days hackathon** in which you can trigger different actions from context menu(right mouse click). As an example you can play a piano or request a weather in your city. In total we created 9 different actions. As a result our team took 🥇 place on this hackathon.  
+Our team consists of 6 people created web application during the **two-days hackathon** in which you can trigger different actions from context menu(right mouse click). As an example you can play a piano or request a weather in your city. In total, we created 9 different actions. As a result our team took 🥇 place on this hackathon.  
 
 ### Development description
 
