@@ -2,7 +2,7 @@
 
 Hackathon application with different actions in context menu
 
-[![HTML5](https://img.shields.io/badge/View_Project-blue?style=flat-square)](https://vladhaidukkk.github.io/01-hackathon/)
+[![HTML5](https://img.shields.io/badge/View_Project-blue?style=flat)](https://vladhaidukkk.github.io/01-hackathon/)
 
 ### Project description
 
