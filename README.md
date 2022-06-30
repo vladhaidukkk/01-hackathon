@@ -1,4 +1,4 @@
-# Context Menu (Hackathon #1)
+# Context Menu
 
 > Just click and pick
 
