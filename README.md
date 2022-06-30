@@ -1,6 +1,6 @@
 # Context Menu
 
-> Just click and pick
+[![HTML5](https://img.shields.io/badge/Open_Project-blue?style=for-the-badge)](https://vladhaidukkk.github.io/01-hackathon/)
 
 ### Project description
 
